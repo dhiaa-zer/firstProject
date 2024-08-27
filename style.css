@@ -9,7 +9,11 @@
 
 body{
     padding-top: 150px;
-    background-color: var(--slate-300)
+    background-color: var(--slate-300);
+    font-family: 'Outfit',sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .container{
@@ -26,7 +30,7 @@ body{
 .mytext{
     flex: 1;
     
-    font-family: Outfit;
+ 
     padding: 8px;
 }
 .QR_code{
@@ -37,22 +41,20 @@ body{
     font-weight:700;
     font-size: 18px;
     margin-top: 10px;
+    text-align: center;
 }
 
 .text2{
    color: var(--slate-500);
    font-weight: 400;
-   font-size: 13.5px
+   font-size: 13.5px;
+   text-align: center;
+
 }
 
 .QR_code img{
     width: 100%;
     border-radius: 10px;
 }
-
-.attribution { font-size: 11px; text-align: center;margin-top: 130px;
-   
-}
-.attribution a { color: hsl(228, 45%, 44%); }
 
 
